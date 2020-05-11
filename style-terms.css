@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+}
+.terms{
+    width: 37%;
+    height: 100%;
+    background-color: #eee;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 20%;
+    padding: 3%;
+    box-shadow: 0 0 20px 2px #bfbfbf
+    float: left;
+}
+
+.cook{
+    width: 15%;
+    height: 100%;
+    float: right;
+    transform: translateY(-100%);
+    margin-right: 15%;
+    padding-bottom:2% ;
+    text-align: center;
+
+}
+
+footer{
+    margin-left: 30%;
+    text-align: center;
+}

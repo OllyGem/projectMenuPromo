@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#dropdown{
+    text-align: left;
+    background-color: #eee;
+    text-align: right;
+}
+
+#dropdown>ul>li {
+    padding: 0px 5px 30px 5px;
+}
+
+#dropdown a{
+    color: #333
+}
+
+#dropdown>ul>li>a::after{
+    content:"\25BE";
+    vertical-align: middle;
+}
+
+#dropdown img{
+    width: 50px;
+    transform: translateY(16px);
+}
+
+#dropdown .collapse{
+    margin-top: 10px;
+    display: none;
+}
+
+#dropdown .collapse li{
+    padding: 5px;
+
+}
+
+#dropdown:hover .collapse{
+    display: block;
+    animation: fadeInRight;
+    animation-duration: 0.5s;
+}
+
+#dropdown>ul>li:hover{
+    display: block;
+    animation: pulse;
+    animation-duration: 0.6s;
+}

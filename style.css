@@ -1,0 +1,114 @@
+body{
+    background-color: #fff;
+    margin: auto;
+    color: #000;
+    font-family: Montserrat;
+}
+#promo{
+    background-color: #99b900;
+    color: #333;
+    padding: 1%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#promo>span{
+    color: yellow;
+}
+
+.promo-menu{
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+
+.super-promo{
+    color: red;
+}
+
+.content{
+    width: 57%;
+    float: left;
+    margin-left: 10%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #ddd;
+}
+.content img{
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+.content .price{
+    background-color: red;
+    padding: 2%;
+    width: 30%;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+
+.make-order{
+    background-color: #99b900;
+    padding: 2%;
+    width: 30%;
+    text-align: center;
+    font-size: 100%;
+}
+
+.make-order::after{
+    content:"\25BE";
+}
+
+.order:hover .info-order{
+    display: block;
+    animation: fadeIn ;
+    animation-duration: 1s;
+}
+
+.content .info-order li{
+    padding: 1%;
+    background-color:  #eee;
+    border-bottom: 1px solid #ddd;
+    width: 40%;
+}
+
+.content button{
+    background-color:#99b900;
+    height: 50px;
+    padding: 0 3%;
+
+}
+
+.info-order {
+    display: none;
+}
+
+.sidebar{
+    width: 20%;
+    float: right;
+    margin-right: 10%;
+}
+
+.sidebar .recommended{
+    text-align: center;
+}
+
+.sidebar>ol>li h4{
+    text-align: center;
+}
+
+.sidebar li{
+    background-color: #f8f8f8;
+    padding: 1% 5%;
+    margin-bottom: 2%;
+}
+
+.sidebar img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+}
